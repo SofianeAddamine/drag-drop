@@ -1,0 +1,49 @@
+body {
+   padding: 0;
+   margin: 0;
+   background: teal;
+   color: rgb(255, 255, 255);
+}
+.containerdrag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.base {
+    background-color: rgb(172, 172, 172);
+    position: relative;
+    height: 60px;
+    width: 97%;
+    top: 5px;
+    left: 5px;
+    cursor: pointer;
+}
+
+.tenu {
+    border: solid 5px #CCC;
+}
+div .topcontent {
+    height: 80px;
+    width: 100%;
+}
+.case {
+    display: inline-block;
+    height: 400px;
+    width: 400px;
+    margin: 10px;
+    border: solid 3px black;
+    background: #fff;
+}
+.hovered {
+    background-color: white;
+    border-style: dashed;
+}
+.container {
+    display: block;
+}
+div > div > p {
+    font-size: 40px;
+    text-align: center;
+}
